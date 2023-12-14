@@ -1,12 +1,5 @@
 
-# Stacks
-
-## Topological Index
-
-**1. What are stacks?**
-
-- Stack Abstract Data Type
-- Deck of Cards Analogy
+ards Analogy
 - Access to Top Element
 - Implementation Methods
 - LIFO Structure
@@ -91,4 +84,144 @@
 
 ## Question Bank
 
-## Web Resources
+### Topic: Understanding Stacks in Computer Science
+
+**1. What is a Stack in computer science?**
+   - A) A type of data type that defines behavior without the underlying implementation.
+   - B) A type of data type that can only be implemented with one-dimensional arrays.
+   - C) A type of data type that allows access to all elements at any point in time.
+
+**2. What is the structure of a Stack?**
+   - A) First in, First out (FIFO)
+   - B) Last in, First out (LIFO)
+   - C) Last in, Last out (LILO)
+
+**3. What is the 'pop' operation in a Stack?**
+   - A) It removes and returns the last item inserted in the Stack.
+   - B) It adds a new item to the top of the Stack.
+   - C) It returns the value of the top item without removing it.
+
+**4. What is the 'push' operation in a Stack?**
+   - A) It removes and returns the last item inserted in the Stack.
+   - B) It adds a new item to the top of the Stack.
+   - C) It returns the value of the top item without removing it.
+
+**5. Why is the Stack abstract data type crucial in modern programming languages?**
+   - A) Because it allows for faster data access.
+   - B) Because it stores function calls and local variables associated with a given function.
+   - C) Because it requires less memory than other data types.
+
+### Topic: Stacks in Memory Management
+
+**1. What are the two types of memory used by applications?**
+   - A) Stack memory and Heap memory.
+   - B) Stack memory and Queue memory.
+   - C) Heap memory and Queue memory.
+
+**2. What is stored in Stack memory?**
+   - A) Local variables and method calls.
+   - B) Objects and reference types.
+   - C) Global variables and method calls.
+
+**3. What is stored in Heap memory?**
+   - A) Local variables and method calls.
+   - B) Objects and reference types.
+   - C) Global variables and method calls.
+
+**4. What is the main difference between Stack memory and Heap memory?**
+   - A) Stack memory is small in size but fast to access, while Heap memory is large but slow to access.
+   - B) Stack memory can become fragmented, while Heap memory cannot.
+   - C) Stack memory stores objects and reference types, while Heap memory stores local variables and method calls.
+
+**5. What happens when a large number of stack frames cannot fit into the Stack memory?**
+   - A) The system crashes.
+   - B) There is a so-called stack overflow error.
+   - C) The system automatically increases the size of the Stack memory.
+
+### Topic: Stack Memory Visualization
+
+**1. What happens to the Stack memory when a function execution is completed?**
+   - A) The function is removed from the Stack memory along with its local variables.
+   - B) The function remains in the Stack memory along with its local variables.
+   - C) Only the local variables of the function are removed from the Stack memory.
+
+**2. Where are objects and their related class variables stored?**
+   - A) In the Stack memory.
+   - B) In the Heap memory.
+   - C) In both Stack and Heap memory.
+
+**3. What happens to an object in the Heap memory when there is no active reference to it from the Stack memory?**
+   - A) It remains in the Heap memory.
+   - B) It is removed by garbage collection.
+   - C) It is moved to the Stack memory.
+
+**4. How does Python know where to return after the execution of a given function?**
+   - A) It uses a pointer stored in the Heap memory.
+   - B) It uses the information stored in the Stack frame of the function.
+   - C) It uses a global variable that tracks the function calls.
+
+**5. What happens to the Stack memory when a function calls another function?**
+   - A) A new frame is created for the called function on top of the calling function's frame.
+   - B) The frame of the calling function is replaced with the frame of the called function.
+   - C) The frame of the called function is inserted at the bottom of the Stack memory.
+
+### Topic: Stack Implementation
+
+**1. What is the running time complexity of the 'push' operation in a Stack?**
+   - A) O(1)
+   - B) O(n)
+   - C) O(log n)
+
+**2. What is the running time complexity of the 'pop' operation in a Stack?**
+   - A) O(1)
+   - B) O(n)
+   - C) O(log n)
+
+**3. What does the 'peek' operation in a Stack do?**
+   - A) It removes and returns the last item inserted in the Stack.
+   - B) It returns the last item inserted in the Stack without removing it.
+   - C) It adds a new item to the top of the Stack.
+
+**4. What does the 'isEmpty' function in a Stack do?**
+   - A) It checks whether the Stack is empty or not.
+   - B) It removes all items from the Stack.
+   - C) It returns the number of items in the Stack.
+
+**5. What does the 'stackSize' function in a Stack do?**
+   - A) It checks whether the Stack is empty or not.
+   - B) It removes all items from the Stack.
+   - C) It returns the number of items in the Stack.
+
+### Topic: Practical Applications of Stacks
+
+**1. How does the 'back' button in a browser work?**
+   - A) It uses a Stack to store the recently visited URLs, and the 'back' button pops these URLs.
+   - B) It uses a Queue to store the recently visited URLs, and the 'back' button dequeues these URLs.
+   - C) It uses a Heap to store the recently visited URLs, and the 'back' button removes these URLs from the Heap.
+
+**2. How are 'undo' and 'redo' operations in applications like Photoshop implemented?**
+   - A) They are implemented using a Stack to store the states.
+   - B) They are implemented using a Queue to store the states.
+   - C) They are implemented using a Heap to store the states.
+
+**3. What happens when a function is called in a programming language like Python?**
+   - A) A new frame for the function is created in the Stack memory.
+   - B) A new frame for the function is created in the Heap memory.
+   - C) A new frame for the function is created in the Queue memory.
+
+**4. What happens when a function execution is completed in a programming language like Python?**
+   - A) The function is removed from the Stack memory along with its local variables.
+   - B) The function remains in the Stack memory along with its local variables.
+   - C) Only the local variables of the function are removed from the Stack memory.
+
+**5. What happens when a large number of stack frames cannot fit into the Stack memory?**
+   - A) The system crashes.
+   - B) There is a so-called stack overflow error.
+   - C) The system automatically increases the size of the Stack memory.
+
+**Answer Sheet:**
+1. Understanding Stacks in Computer Science: A, B, A, B, B
+2. Stacks in Memory Management: A, A, B, A, B
+3. Stack Memory Visualization: A, B, B, B, A
+4. Stack Implementation: A, A, B, A, C
+5. Practical Applications of Stacks: A, A, A, A, B
