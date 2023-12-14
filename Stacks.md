@@ -2,7 +2,9 @@
 
 ## Topological Index
 **1. What are stacks?**
+   
    a. Stack Abstract Data Type
+
    b. Deck of Cards Analogy
    c. Top Element Access
    d. Implementation Methods
