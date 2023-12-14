@@ -1,46 +1,54 @@
 # Stacks
 
 ## Topological Index
+
 **1. What are stacks?**
-   
-   a. Stack Abstract Data Type
 
-   b. Deck of Cards Analogy
-   c. Top Element Access
-   d. Implementation Methods
-   e. LIFO Structure
-   f. Basic Operations
-   g. Programming Language Applications
-   h. Stack Frames in OS
-   **Key Terms:** Stack, Abstract Data Type, LIFO, Pop, Push, Peek, Programming Languages, Stack Frames, Operating Systems
+- Stack Abstract Data Type
+- Deck of Cards Analogy
+- Access to Top Element
+- Implementation Methods
+- LIFO Structure
+- Basic Operations
+- Programming Language Usage
+- Stack Frames in OS
+- **Key Terms:** Stack, Abstract Data Type, LIFO, Pop, Push, Peek, Programming Languages, Stack Frames, Operating Systems
 
-**2. Stacks in Memory Management**
-   a. Stack vs. Heap Memory
-   b. Application Compilation
-   c. Memory Allocation Types
-   d. Heap Memory Characteristics
-   e. Stack Memory Characteristics
-   **Key Terms:** Stack Memory, Heap Memory, Memory Allocation, Compilation, Application, Random Access Memory, Machine Code, Stack Overflow, Dynamic Memory Allocation
+**2. Stacks in Memory Management (Stacks and Heaps)**
+
+- Differences Between Stack and Heap
+- Application Loading in Memory
+- Stack Memory Features
+- Heap Memory Characteristics
+- Memory Allocation
+- Memory Fragmentation
+- **Key Terms:** Stack Memory, Heap Memory, Memory Management, Application Loading, Memory Allocation, Fragmentation
 
 **3. Stack Memory Visualization**
-   a. Stack and Heap Differences
-   b. Function Calls Tracking
-   c. Local Variables Storage
-   d. Class and Object Storage
-   e. Garbage Collection Process
-   **Key Terms:** Stack Memory, Heap Memory, Function Calls, Local Variables, Class Variables, Object Storage, Garbage Collection
+
+- Function Calls and Stack Memory
+- Local Variables Storage
+- Heap Memory for Objects
+- Class and Instance Variables
+- Garbage Collection
+- Flow of Control
+- **Key Terms:** Stack Memory, Heap Memory, Function Calls, Local Variables, Garbage Collection, Class Variables
 
 **4. Stack Implementation**
-   a. Stack Class Creation
-   b. Push Method Implementation
-   c. Pop Method Implementation
-   d. Peek Method Functionality
-   e. Stack Size Method
-   **Key Terms:** Stack Implementation, Push Method, Pop Method, Peek Method, Stack Size, Python, One Dimensional Array, Data Structures
+
+- Python Stack Implementation
+- Push, Pop, Peek Methods
+- One Dimensional Array Usage
+- Running Time Complexity
+- Stack Size Function
+- Handling Empty Stacks
+- **Key Terms:** Stack Implementation, Push, Pop, Peek, Python, One Dimensional Array, Running Time Complexity
 
 **5. Practical Applications of Stacks**
-   a. Browser Back Button
-   b. Undo and Redo Operations
-   c. Stack Memory Importance
-   d. Function Call Management
-   **Key Terms:** Stack Applications, Browser Navigation, Undo Redo, Stack Memory, Function Calls, Local Variables, Operating System
+
+- Back Button in Browsers
+- Undo Operations in Applications
+- Stack Memory in Operating Systems
+- Function Calls and Local Variables
+- Stack Frames and Memory Management
+- **Key Terms:** Stack Applications, Browsers, Undo Operations, Stack Memory, Function Calls, Local Variables
