@@ -1,5 +1,11 @@
+# Stacks
 
-ards Analogy
+## Topological Index
+
+**1. What are stacks?**
+
+- Stack Abstract Data Type
+- Deck of Cards Analogy
 - Access to Top Element
 - Implementation Methods
 - LIFO Structure
