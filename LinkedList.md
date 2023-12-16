@@ -3,7 +3,134 @@
 
 ## Topological Index
 
-## Summary
+## Notes
+
+### "What are linked lists?"
+
+- Linked lists efficiently store items for operations like inserting, searching, and removing.
+- They do not require shifting multiple items, unlike arrays.
+- Composed of nodes, each with data and a pointer to the next node.
+- The first node is known as the head, and direct access to nodes, unlike arrays, is not possible.
+- The last node points to null, signaling the list's end.
+- Uses more memory than arrays due to additional pointers.
+- Absence of shift operations gives them an advantage over arrays.
+
+**Key Terms:** Linked List, Data Structure, Insert, Search, Remove, Efficiency, Array, Shifting, Memory, Pointer, Node, Head Node, Null
+
+### Linked list introduction - operations
+
+- Discusses operations in linked lists: insert, remove, and traverse.
+- Insertion at beginning is efficient, updating references in constant time.
+- Inserting at end involves traversing the entire list, resulting in linear time complexity.
+- Removing the first item is quick, updating the head to the next node.
+- Removing last or arbitrary items takes longer, requiring traversal to locate the item.
+- First item manipulations are quick, while others incur linear time complexity.
+
+**Key Terms:** Linked List Operations, Insertion, Removal, Traversal, Head Node, Tail Node, Constant Time, Linear Time, Update References
+
+### Pros and cons of linked lists
+
+- Highlights linked lists' dynamic nature, allowing organic growth without resizing.
+- Linked lists use more memory due to data and pointer storage.
+- Lack random access, hindering quick retrieval of any node.
+- Can't access previous nodes directly, limiting backward navigation.
+- Performance varies based on operations, with some fast and others slower.
+- Alternative structures like binary search trees offer more predictable performance.
+
+**Key Terms:** Linked Lists, Dynamic Data Structure, Memory Usage, Random Access, Binary Search Trees, Performance, Navigation, Data Retrieval
+
+### Linked list implementation I
+
+- Focuses on implementing linked lists in programming.
+- Involves creating node and linked list classes.
+- Nodes store data and reference to next node.
+- Linked list class maintains head node and list size.
+- Insertion at beginning and end of the list are demonstrated.
+- Running time complexities for these operations are explained.
+
+**Key Terms:** Implementation, Programming, Node Class, Linked List Class, Head Node, Insertion, Running Time Complexity, Data Structure Design
+
+### Linked list implementation II
+
+- Continues linked list implementation, focusing on traversal and insertion.
+- Traversal function iterates through all nodes, displaying data.
+- Insertion at end and beginning of the list is explored.
+- Highlights the ease of inserting at the beginning but complexity at the end.
+- Demonstrates how to view all items in a linked list.
+
+**Key Terms:** Linked List Implementation, Traversal, Insertion, Node Iteration, Data Viewing, Programming Techniques
+
+### Linked list implementation III
+
+- Discusses removing items from linked lists.
+- Removal function targets specific data, with linear time complexity.
+- Removal process involves finding the item and updating references.
+- Removing the first node is more efficient than other positions.
+- Demonstrates removal through code examples.
+
+**Key Terms:** Linked List, Remove Function, Linear Time Complexity, Node Reference, Efficient Removal, Programming Example
+
+### Revisiting remove operation
+
+- Clarifies misconceptions about the remove operation in linked lists.
+- Removing the first node (head) is efficient with constant time complexity.
+- Removing arbitrary items is slower due to linear time complexity.
+- The distinction between removing the first node and others is emphasized.
+
+**Key Terms:** Remove Operation, Linked List, Head Node, Constant Time Complexity, Linear Time Complexity, Data Structure Efficiency
+
+### Comparing linked lists and arrays
+
+- Compares arrays and linked lists in terms of structure and efficiency.
+- Arrays are static, with fixed size and contiguous memory allocation.
+- Linked lists are dynamic, allowing flexible size without resizing.
+- Arrays offer quick access to any element, while linked lists lack random access.
+- Linked lists excel in manipulating first items, arrays in manipulating last items.
+- Memory usage is higher in linked lists due to additional pointers.
+
+**Key Terms:** Arrays, Linked Lists, Data Structure Comparison, Static, Dynamic, Random Access, Memory Usage
+
+### Practical (real-world) applications of linked lists
+
+- Explores real-world applications of linked lists.
+- Used in low-level memory management, such as heap allocation.
+- Operating systems employ linked lists for task management and memory tracking.
+- Photo viewer applications use linked lists for image sequencing.
+- Blockchains, like Bitcoin, use linked lists for block management.
+
+**Key Terms:** Linked Lists Applications, Memory Management, Operating Systems, Photo Viewer, Blockchain, Bitcoin
+
+### What are doubly linked lists?
+
+- Introduces doubly linked lists, an extension of standard linked lists.
+- Each node points to both next and previous nodes, allowing bidirectional traversal.
+- Includes head and tail nodes for quick access to list ends.
+- More complex than standard linked lists, requiring additional pointers.
+- Ideal for fast manipulation of both first and last items.
+- Uses more memory but offers greater flexibility in navigation and item removal.
+
+**Key Terms:** Doubly Linked Lists, Bidirectional Traversal, Head Node, Tail Node, Node Pointers, Data Structure Complexity, Memory Usage
+
+### Doubly linked list implementation
+
+- Focuses on implementing doubly linked lists.
+- Nodes in doubly linked lists contain pointers to both next and previous nodes.
+- Class structure includes head and tail pointers.
+- Demonstrates insertion at the end and traversal in both directions.
+- Illustrates the benefits of easy forward and backward navigation.
+- More memory-intensive due to additional pointers per node.
+
+**Key Terms:** Doubly Linked List Implementation, Node Structure, Class Design, Insertion, Traversal, Forward Navigation, Backward Navigation
+
+### Running time comparison: linked lists and arrays
+
+- Compares the running time of operations in linked lists and arrays.
+- Linked lists offer faster insertion at the beginning compared to arrays.
+- Array insertions at the beginning are slower due to shifting elements.
+- Demonstrates the time efficiency of linked lists through code examples.
+- Emphasizes the importance of choosing the right data structure based on operation needs.
+
+**Key Terms:** Running Time Comparison, Linked Lists, Arrays, Insertion Efficiency, Time Complexity, Data Structure Selection
 
 ## Question Bank
 
