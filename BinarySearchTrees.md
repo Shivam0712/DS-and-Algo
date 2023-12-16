@@ -138,7 +138,7 @@
 
 **Operations in BSTs**
 - **Insertion, Deletion, Search**: Can be done in logarithmic time in a balanced BST.
-- **Traversal Methods**: Pre-order, In-order, Post-order.
+- **Traversal Methods**: Pre-order(Root → Left → Right), In-order(Left → Root → Right), Post-order(Left → Right → Root).
 
 ### Binary Search Trees Theory - Search, Insert
 
@@ -238,9 +238,7 @@
 **Machine Learning**
 - Decision Trees: Used for classification problems.
 - Boosting Algorithms: Combining decision trees for complex problems.
-
-**Demonstration**
-- Command line example of visualizing file system as a tree structure.
+.
 
 ## Question bank
 
