@@ -3,6 +3,66 @@
 
 ## Topological Index
 
+
+**1. What are linked lists?**
+   - Importance of Linked Lists
+   - Comparison with Arrays
+   - Working of Linked Lists
+   - Memory Usage
+   - Limitations and Advantages
+   - Complex Data Structures
+   - **Key Terms:** Linked Lists, Data Structure, Arrays, Nodes, Pointers, Stack, Queue, Binary Search Trees, Hash Maps.
+
+**2. Linked List Introduction - Operations**
+   - Linked List Operations
+   - Insertion of Items
+   - Running Time Complexity
+   - Removing Items
+   - Manipulation of Items
+   - **Key Terms:** Operations, Insertion, Removal, Running Time Complexity, References, Nodes.
+
+**3. Pros and Cons of Linked Lists**
+   - Advantages of Linked Lists
+   - Disadvantages of Linked Lists
+   - **Key Terms:** Dynamic Data Structure, Memory Usage, Random Access, Running Time Complexity.
+
+**4. Linked list implementation I**
+   - Node Class Creation
+   - Linked List Class Creation
+   - Node Insertion 
+   - Time Complexity of Insertion
+   - **Key Terms:** Node, Linked List, Insertion, Time Complexity.
+
+**5. Linked list implementation II**
+   - Testing Functionality of Implementation
+   - Traverse Function
+   - Time Complexity of Traverse Function
+   - Representation Function
+   - **Key Terms:** Traverse Function, Time Complexity, Node, Implementation.
+
+**6. Linked list implementation III**
+   - Removal of Items
+   - Running Time Complexity of Removal
+   - Reference Updates
+   - **Key Terms:** Removal, Running Time Complexity, References, Nodes.
+
+**7. Revisiting remove operation**
+   - Running Time Complexity of Remove Operation
+   - Removing First Node
+   - **Key Terms:** Remove Operation, Running Time Complexity, First Node.
+
+**8. Comparing linked lists and arrays**
+   - Comparison of Arrays and Linked Lists
+   - Advantages and Disadvantages of Each
+   - **Key Terms:** Arrays, Linked Lists, Time Complexity, Memory Complexity.
+
+**9. Practical (real-world) applications of linked lists**
+   - Memory Management in C
+   - Use in Windows Applications
+   - Use in Photo Viewer Applications
+   - Use in Blockchain and Bitcoin Ecosystem
+   - **Key Terms:** Memory Management, Windows Applications, Photo Viewer, Blockchain, Bitcoin.
+
 ## Notes
 
 ### "What are linked lists?"
