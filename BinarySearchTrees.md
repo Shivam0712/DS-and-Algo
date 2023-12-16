@@ -3,6 +3,101 @@
 
 ## Topological Index
 
+### **What are binary search trees?**
+- Advantages of Arrays
+- Benefits of Linked Lists
+- Disadvantages of Traditional Data Structures
+- Introduction to Sorted Data Structures
+- Binary Search Efficiency
+- Sorted Array Example
+- Searching in Unsorted Data
+- Logarithmic Time Complexity
+- Operating Systems and Tree Structures
+- Tree Definition in Graph Theory
+- Tree Structure Components
+- Directed and Undirected Trees
+- Internal and Leaf Nodes
+- Binary Search Trees Characteristics
+- Importance of Tree Balancing
+- Complete Binary Search Trees
+- Tree Height Calculation
+- Balanced vs. Imbalanced Trees
+- **Key Terms:** Array, Linked List, Binary Search, Logarithmic Time Complexity, Tree, Graph Theory, Root Node, Internal Node, Leaf Node, Binary Search Tree, Balanced Tree, Imbalanced Tree.
+
+### **Binary search trees theory - search, insert**
+- Insertion in Binary Search Trees
+- Searching in Binary Search Trees
+- Recursive Insertion Method
+- Handling Duplicate Values
+- Finding Maximum and Minimum
+- **Key Terms:** Insertion, Search, Binary Search Tree, Recursive Algorithm, Maximum, Minimum.
+
+### **Binary search trees theory - delete**
+- Removing Nodes in Binary Search Trees
+- Deletion of Leaf Nodes
+- Deletion of Nodes with Single Child
+- Deletion of Nodes with Two Children
+- Successor and Predecessor in Deletion
+- **Key Terms:** Deletion, Leaf Node, Binary Search Tree, Successor, Predecessor.
+
+### **Binary search trees theory - in-order traversal**
+- Types of Tree Traversals
+- Pre-order Traversal
+- Post-order Traversal
+- In-order Traversal
+- Recursive Traversal Methods
+- In-order Traversal for Sorted Output
+- **Key Terms:** Traversal, Pre-order, Post-order, In-order, Recursive Traversal.
+
+### **Pros and cons of binary search trees**
+- Advantages of Binary Search Trees
+- Predictability of Operations
+- Disadvantages of Binary Search Trees
+- Lack of Random Access
+- Complexity in Imbalanced Trees
+- **Key Terms:** Binary Search Tree, Advantages, Disadvantages, Random Access, Imbalanced Tree.
+
+### **Binary search tree implementation I**
+- Implementing Binary Search Trees
+- Node Class Design
+- Tree Class Design
+- Insertion Implementation
+- Handling Left and Right Children
+- **Key Terms:** Implementation, Node Class, Tree Class, Insertion, Left Child, Right Child.
+
+### **Binary search tree implementation II**
+- Finding Maximum and Minimum Values
+- In-order Traversal Implementation
+- Stack Memory in Recursive Calls
+- **Key Terms:** Maximum Value, Minimum Value, In-order Traversal, Stack Memory, Recursive Call.
+
+### **Stack memory visualization - finding max (min) items**
+- Visualizing Stack Memory
+- Recursive Maximum and Minimum Finding
+- Stack Frames in Recursion
+- **Key Terms:** Stack Memory, Maximum, Minimum, Recursive Function, Stack Frame.
+
+### **Stack memory visualization - tree traversal**
+- Visualization of Tree Traversal
+- Stack Memory in In-order Traversal
+- Recursion in Tree Traversal
+- Backtracking in Recursion
+- **Key Terms:** Tree Traversal, Stack Memory, In-order Traversal, Recursion, Backtracking.
+
+### **Binary search tree implementation III - remove operation**
+- Implementing Node Removal
+- Handling Different Cases of Removal
+- Recursive Node Removal
+- Swapping Nodes in Deletion
+- **Key Terms:** Node Removal, Binary Search Tree, Recursion, Swapping Nodes.
+
+### **Practical (real-world) applications of trees**
+- Trees in File Systems
+- Game Trees in Chess and Tic Tac Toe
+- Decision Trees in Machine Learning
+- Boosting Algorithm in Computer Vision
+- **Key Terms:** File Systems, Game Trees, Decision Trees, Boosting Algorithm, Machine Learning.
+
 ## Notes
 
 ## Question bank
