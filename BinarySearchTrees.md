@@ -100,6 +100,148 @@
 
 ## Notes
 
+### Overview of Binary Search Trees
+
+**Introduction to Binary Search Trees (BSTs)**
+- **Background**: Discussed array and linked list data structures.
+- **Arrays**: 
+  - Advantages: Fast manipulation of the last item (constant time complexity) and index-based access.
+  - Limitations: Finding an arbitrary item requires linear time complexity.
+- **Linked Lists**: 
+  - Advantage: Efficient manipulation of the first item (constant time complexity).
+  - Limitation: Finding an arbitrary item also requires linear time complexity.
+
+**Seeking Improved Efficiency**
+- **Problem**: Need a faster approach than arrays and linked lists for searching arbitrary items.
+- **Solution**: Store items in sorted order to achieve logarithmic running time complexity.
+
+**Binary Search and BSTs**
+- **Binary Search**: Discards half of the dataset in each iteration (logarithmic complexity).
+- **Example**: Differentiating between unsorted and sorted collections of books for search efficiency.
+
+**BSTs in Operating Systems**
+- **Application**: Used in operating systems like Windows and Mac for efficient data storage and retrieval.
+
+**Graph Theory and Trees**
+- **Definition**: A tree is an acyclic, connected, undirected graph. 
+- **Components**: Root node, internal nodes, leaf nodes, parent-child relationships.
+
+**Binary Search Trees Specifics**
+- **Properties**: 
+  - Each node has up to two children (left and right).
+  - Left child is always smaller, right child is always greater than the parent node.
+- **Advantages**: Logarithmic running time complexity for operations.
+
+**Tree Height and Efficiency**
+- **Tree Height (H)**: Longest path from root to a leaf.
+- **Importance**: Keeping H minimal ensures logarithmic complexity; imbalance can lead to linear complexity.
+
+**Operations in BSTs**
+- **Insertion, Deletion, Search**: Can be done in logarithmic time in a balanced BST.
+- **Traversal Methods**: Pre-order, In-order, Post-order.
+
+### Binary Search Trees Theory - Search, Insert
+
+**Inserting Items in BST**
+- Process: Compare the item with the current node, decide to go left or right.
+- Example: Inserting various items and the decision process at each step.
+
+**Searching for Items**
+- Process: Similar to insertion, involves decision-making at each node.
+- Efficiency: Logarithmic complexity due to the nature of BST.
+
+**Finding Maximum and Minimum Items**
+- Maximum: The rightmost item.
+- Minimum: The leftmost item.
+
+**Binary Search Trees Characteristics**
+- Data stored in a sorted manner.
+- Operations allow skipping half of the tree, achieving logarithmic complexity.
+
+**Balanced vs. Imbalanced Trees**
+- Balanced Trees: Ensure logarithmic running time complexity.
+- Imbalanced Trees: Can degrade to linear time complexity.
+
+### Binary Search Trees Theory - Delete
+
+**Deleting Items from BST**
+- Deleting Leaf Nodes: Simplest, involves removing the node and updating the parent.
+- Deleting Nodes with One Child: Replace the node with its child.
+- Deleting Nodes with Two Children: Most complex, involves finding the successor or predecessor.
+
+**Successor and Predecessor**
+- Successor: Smallest item in the right subtree.
+- Predecessor: Largest item in the left subtree.
+
+**Deleting with Two Children**
+- Swap the target node with its successor/predecessor.
+- Then delete the swapped node, which will be a simpler case.
+
+### Binary Search Trees Theory - In-order Traversal
+
+**Tree Traversal**
+- Types: Pre-order, In-order, Post-order.
+- Involves visiting each node once (linear time complexity).
+
+**Pre-order Traversal**
+- Process: Visit the root, then left subtree, then right subtree recursively.
+
+**Post-order Traversal**
+- Process: Visit left subtree, right subtree, then the root node recursively.
+
+**In-order Traversal**
+- Most important for BSTs.
+- Process: Visit left subtree, root, then right subtree.
+- Yields sorted order for BSTs.
+
+**Applications of Traversal**
+- Used for sorting, searching, and processing tree data effectively.
+
+### Pros and Cons of Binary Search Trees
+
+**Advantages of BSTs**
+- Efficient Operations: Logarithmic running time on average.
+- Predictability: Uniform performance across different operations.
+- Space Efficiency: Linear space complexity.
+
+**Disadvantages of BSTs**
+- Potential Imbalance: Can lead to linear time complexity.
+- No Random Access: Unlike arrays, BSTs don't support direct index-based access.
+- No Constant Time Operations: Unlike arrays or linked lists, BSTs don't have operations that are constant time.
+
+### Binary Search Tree Implementation
+
+**Node Representation**
+- Class Structure: Data, left and right children, and parent node.
+
+**BST Operations**
+- Insertion: Recursive comparison and placement.
+- Searching: Recursive approach to find a node.
+- Finding Min/Max: Traversing to the leftmost/rightmost nodes.
+- In-order Traversal: Recursive traversal for sorted output.
+
+**Removing Nodes**
+- Handling different cases: leaf nodes, single child, and two children.
+- Predecessor/Swap Method for two children nodes.
+
+**Stack Memory Visualization**
+- Demonstrating how recursive calls for finding Min/Max and traversal are handled in memory.
+
+### Practical Applications of Trees
+
+**File Systems**
+- Hierarchical structure, resembling a tree, used in operating systems.
+
+**Game Trees**
+- Representing possible moves in games like chess or tic-tac-toe.
+
+**Machine Learning**
+- Decision Trees: Used for classification problems.
+- Boosting Algorithms: Combining decision trees for complex problems.
+
+**Demonstration**
+- Command line example of visualizing file system as a tree structure.
+
 ## Question bank
 
 ### Topic 1: Fundamentals of Binary Search Trees
