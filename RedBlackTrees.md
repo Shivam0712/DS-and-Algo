@@ -2,6 +2,79 @@
 
 ## Topological Index
 
+**What are Red-Black Trees?**
+- Balanced Binary Search Tree
+- Fast Insertion and Removal
+- Logarithmic Time Complexity
+- Imbalance in Binary Trees
+- AVL Trees vs. Red-Black Trees
+- Invention in 1978
+- **Key Terms:** Red-Black Tree, Binary Search Tree, AVL Tree, Logarithmic Time, Imbalance, Robert Sedgewick
+
+**The Logic Behind Red-Black Trees**
+- Red and Black Nodes
+- Root Node Color
+- Child and Parent Color Constraints
+- Null Pointers and Colors
+- Black Node Path Consistency
+- Balance Factor in Trees
+- Path Length Constraints
+- **Key Terms:** Node Color, Root Node, Child Nodes, Null Pointers, Balance Factor, Path Length
+
+**Red-Black Trees - Recoloring and Rotation Cases**
+- Subtree Structures in Red-Black Trees
+- Recoloring and Rotations
+- Case Analysis for Tree Adjustments
+- Symmetric Cases
+- Recoloring Operations
+- Left and Right Rotations
+- **Key Terms:** Subtree, Recoloring, Rotation, Symmetric Case, Left Rotation, Right Rotation
+
+**Red-Black Tree Illustrations**
+- Insertion Examples
+- Color Changes and Rotations
+- Handling Tree Imbalance
+- Example Scenarios
+- Balancing Binary Search Trees
+- **Key Terms:** Insertion, Color Change, Tree Imbalance, Binary Search Tree, Tree Balancing
+
+**Red-Black Tree Implementation I**
+- Enum for Node Colors
+- Node Class Implementation
+- Red-Black Tree Class Structure
+- Insertion Method
+- Node Traversal
+- **Key Terms:** Enum, Node Class, Red-Black Tree Class, Insertion, Traversal
+
+**Red-Black Tree Implementation II**
+- Implementing Rotations
+- Right and Left Rotation Logic
+- Parent-Child Relationship Handling
+- Root Node Adjustments
+- **Key Terms:** Rotation Implementation, Right Rotation, Left Rotation, Parent-Child Relationship
+
+**Red-Black Tree Implementation III**
+- Handling Red-Black Tree Property Violations
+- Iterative Checking for Violations
+- Recoloring and Rotation Logic
+- Symmetric Case Handling
+- Updating Root Node Color
+- **Key Terms:** Property Violations, Iterative Checking, Recoloring Logic, Symmetric Case, Root Node Color
+
+**Red-Black Tree Implementation IV**
+- Testing Red-Black Tree Implementation
+- Insertion and Adjustment Examples
+- Verifying Tree Properties
+- **Key Terms:** Testing, Implementation Verification, Tree Properties
+
+**Differences between Red-Black Tree and AVL Trees**
+- Performance Comparison
+- Use Cases for Each Tree
+- Structural Differences
+- Search vs. Insertion Efficiency
+- **Key Terms:** Red-Black Tree, AVL Tree, Performance, Use Case, Efficiency
+
+
 ## Notes
 
 ### Comprehensive Overview of Red-black Trees
