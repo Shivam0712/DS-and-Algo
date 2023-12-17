@@ -109,6 +109,81 @@
 
 ## Notes
 
+### Summary: Priority Queues and Heaps
+
+1. **Introduction to Priority Queues**:
+   - **Concept**: Priority queues are an abstract data type resembling queues. Each element has an additional property: priority.
+   - **Behavior**: Elements with higher priority are served before those with lower priority.
+   - **Ordering**: Unlike normal queues, priority queues consider item priority over insertion order.
+   - **Implementation Options**: Can be implemented using heaps or self-balancing trees.
+   - **Heaps as Abstract Data Types**: While often called data structures, heaps are abstract data types that can be realized using arrays or balanced binary search trees.
+
+2. **Heap Introduction - Basics**:
+   - **Heaps vs. Binary Trees**: Heaps are binary trees with two key types - minimum and maximum heaps.
+   - **Heap Construction**: Introduced by J.W.J Williams in 1964 for efficient sorting.
+   - **Parent-Child Key Relationship**: In max heaps, parent keys are greater than children; in min heaps, they're smaller.
+   - **Efficiency**: Finding the max/min value is constant time (O(1)) in heaps, faster than in balanced binary search trees.
+
+3. **Heap Introduction - Array Representation**:
+   - **Array-Based Representation**: Heaps can be represented using one-dimensional arrays.
+   - **Index Calculations**: Child/parent indices can be calculated with specific formulas.
+   - **Efficient Representation**: Arrays allow for an efficient way to represent heap data structures.
+
+4. **Heap Introduction - Remove Operation**:
+   - **Root Node Removal**: Typically involves removing the root node, done in logarithmic time (O(log n)).
+   - **Arbitrary Item Removal**: More complex, involves linear search and has linear time complexity (O(n)).
+   - **Reheapification**: After removal, heaps require reordering to maintain heap properties.
+
+5. **Using Heap to Sort (Heapsort)**:
+   - **Heapsort Algorithm**: A comparison-based sorting algorithm using a heap data structure.
+   - **Efficiency**: Heapsort has O(n log n) time complexity for worst, average, and best cases.
+   - **Process**: Involves building a heap and then repeatedly removing the root node to achieve sorted order.
+
+6. **Heap Operations Complexities**:
+   - **Memory Complexity**: Linear (O(n)) due to the need to store n items.
+   - **Finding Min/Max**: Constant time (O(1)).
+   - **Insertions and Removals**: Logarithmic time (O(log n)).
+
+7. **Binomial and Fibonacci Heaps**:
+   - **Binomial Heaps**: Similar to binary heaps but support quick merging. They are collections of tree-like structures.
+   - **Fibonacci Heaps**: Advanced, faster than binary and binomial heaps, but complex to implement. They allow for more children and are efficient for several graph algorithms.
+
+8. **Heap Implementation**:
+   - **Class Structure for Heap**: Define a class `Heap` with methods for heap operations. This class will manage the heap properties and operations internally.
+   - **Constructor and Attributes**:
+     - **Constructor**: Initializes heap size and allocates memory for the heap array based on a given capacity.
+     - **Attributes**: Include heap size (number of elements in the heap) and the heap array itself.
+   - **Insertion Method**:
+     - **Method to Insert Items**: Adds new items to the heap while maintaining heap properties.
+     - **Full Heap Check**: Before insertion, check if the heap has reached its capacity.
+     - **Heap Array Update**: Insert the new item at the next available index in the heap array.
+     - **Heap Size Adjustment**: Increment heap size after each insertion.
+     - **Heap Property Maintenance**: After insertion, adjust the heap to maintain heap properties using a fix-up operation.
+   - **Fix-Up Operation**:
+     - **Purpose**: Ensures the heap maintains its structural and ordering properties after each insertion or modification.
+     - **Process**: Compares newly added element with its parent and swaps if heap properties are violated, continuing upwards till the root if necessary.
+   - **Get Maximum/Minimum Function**:
+     - **Functionality**: Retrieves the maximum (or minimum) element from the heap without removing it, typically located at the root.
+     - **Time Complexity**: Constant time operation (O(1)).
+   - **Remove Operation (Poll)**:
+     - **Remove Root Element**: Removes and returns the root element from the heap, which is either the maximum or minimum value.
+     - **Heap Rearrangement**: After removal, rearranges the heap to maintain heap properties using a fix-down operation.
+     - **Heap Size Decrement**: Decreases the heap size after removal.
+   - **Fix-Down Operation**:
+     - **Purpose**: Restores heap properties after removal of the root element.
+     - **Process**: Swaps the root with its largest (or smallest) child, continuing downwards until heap properties are restored.
+   - **Heapsort Method**:
+     - **Sorting Mechanism**: Utilizes the heap structure to sort elements in ascending or descending order.
+     - **Implementation**: Repeatedly removes the root element and reheapifies until all elements are sorted.
+   - **Additional Operations**:
+     - **Heapify**: Converts a random array into a heap.
+     - **Update Element**: Modifies an element in the heap and then readjusts to maintain heap properties.
+     - **Size and Capacity Checks**: Provides functionality to check the current size and capacity of the heap.
+   - **Python’s Built-In Heap Module (`heapq`)**:
+     - **Min Heap by Default**: Python's `heapq` module implements a min heap.
+     - **Ease of Use**: Simplifies heap operations like insertion (`heappush`), removal (`heappop`), and heap construction (`heapify`).
+     - **Customization for Max Heap**: Can be customized to function as a max heap by inverting the value comparison.
+
 ## Questions Banks
 
 ### Topic: Understanding Priority Queues and Heap Data Structures
